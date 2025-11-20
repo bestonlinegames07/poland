@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Gaming Hub</title>
+  <meta name="description" content="Your ultimate destination for gaming tips, reviews, and community insights">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./index.html" class="logo">Gaming<span>Hub</span></a>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./blog/index.html">Blog</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html" class="cta-button">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <div class="static-page">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+      
+      <h2>Get in Touch</h2>
+      <p>For general inquiries, partnership opportunities, or content suggestions, please fill out the form below and we'll get back to you within 24-48 hours.</p>
+      
+      <form class="contact-form" style="background: var(--bg-secondary); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+        <div style="margin-bottom: 1.5rem;">
+          <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Your Name *</label>
+          <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit;">
+        </div>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Address *</label>
+          <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit;">
+        </div>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Subject *</label>
+          <select id="subject" name="subject" required style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; background: white;">
+            <option value="">Select a topic...</option>
+            <option value="general">General Inquiry</option>
+            <option value="partnership">Partnership Opportunity</option>
+            <option value="content">Content Suggestion</option>
+            <option value="feedback">Feedback</option>
+            <option value="technical">Technical Issue</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message *</label>
+          <textarea id="message" name="message" required rows="6" style="width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical;" placeholder="Please provide details about your inquiry..."></textarea>
+        </div>
+        
+        <button type="submit" class="cta-button" style="padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: all 0.3s; text-transform: uppercase; letter-spacing: 0.5px; width: 100%;">
+          Send Message
+        </button>
+        
+        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">
+          <strong>Note:</strong> This is a demo form. In production, messages would be sent to our team.
+        </p>
+      </form>
+      
+      <h2>Partnership Inquiries</h2>
+      <p>Interested in collaborating with Gaming Hub? We're always open to partnerships that align with our values of family-friendly, educational gaming content. Please reach out with details about your proposal.</p>
+      
+      <h2>Content Suggestions</h2>
+      <p>Have an idea for a blog post or gaming topic you'd like us to cover? We value community input! Send us your suggestions and we'll consider them for future content.</p>
+      
+      <div class="author-box" style="margin-top: 3rem;">
+        <img src="images/author.png" alt="Kacper Nowak" class="author-image">
+        <div class="author-info">
+          <h3>Kacper Nowak</h3>
+          <div class="author-role">Gaming Enthusiast & Content Creator</div>
+          <p class="author-bio">Kacper Nowak is a Gaming Enthusiast & Content Creator with a genuine passion for all things interactive entertainment. Driven by a love for gaming, Alex is dedicated to fostering vibrant communities and sharing insights to help fellow players discover new experiences and connect with each other.</p>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="./about.html">About</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms & Conditions</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <p>&copy; 2025 Gaming Hub. All rights reserved. No gambling or real-money gaming content.</p>
+    </div>
+  </footer>
+
+  <div class="cookie-banner">
+    <div class="cookie-content">
+      <p>We use cookies to enhance your browsing experience and analyze our traffic. By continuing to use our site, you consent to our use of cookies.</p>
+      <div class="cookie-buttons">
+        <button class="cookie-button accept-button">Accept</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

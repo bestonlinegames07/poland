@@ -1,0 +1,27 @@
+# Development files
+node_modules/
+*.log
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Environment
+.env
+
+# Generator scripts (don't deploy)
+generate-content.js
+generate-images.py
+generate-poland-image.py
+build-site.js
+content.json
+requirements.txt
+package.json
+package-lock.json
+
