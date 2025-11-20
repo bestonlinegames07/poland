@@ -1,142 +1,124 @@
-# Gaming Hub Blog
+# Gaming Hub - Poland Edition 🇵🇱🎮
 
-A modern, Marketer Milk-inspired gaming blog website with Facebook Ad policy compliance.
+**A professional gaming blog focused on Polish gaming regulations and community.**
 
-## 🎮 Features
+Live Site: **https://bestonlinegames07.github.io/poland/**
 
-- **Modern Design**: Clean, professional layout inspired by Marketer Milk
-- **5 Unique Blog Posts**: AI-generated content about online gaming
-- **Photorealistic Images**: Unique images for each post using Gemini 2.5 Flash Image
-- **Author Profile**: Custom author image and bio
-- **Full Navigation**: About, Contact, Privacy Policy, Terms & Conditions
-- **Cookie Consent Banner**: GDPR-compliant cookie banner
-- **Responsive Design**: Mobile-friendly layout
-- **Facebook Ad Compliant**: No gambling, casino, or real-money gaming content
+## 🎯 About
 
-## 📁 Project Structure
+Gaming Hub is your ultimate destination for gaming insights, with a special focus on gaming regulations in Poland and the European gaming market. We provide high-quality, Facebook Ad policy-compliant content for gamers of all levels.
+
+## 📚 Featured Content
+
+### Blog Posts:
+1. **Gaming Regulations in Poland: A Complete Guide for 2025** - Comprehensive guide covering PEGI ratings, consumer rights, and legal framework
+2. **Best Multiplayer Games to Play with Friends in 2025** - Top cooperative and competitive gaming experiences
+3. **How to Improve Your Gaming Skills: A Complete Guide** - Expert tips for skill development and competitive gaming
+4. **The Rise of Mobile Gaming: Trends and Insights** - Analysis of mobile gaming market and trends
+5. **Building a Gaming Community: Tips for Streamers** - Guide for content creators and community managers
+6. **Family-Friendly Online Games Everyone Can Enjoy** - Safe, age-appropriate gaming recommendations
+
+## ✨ Features
+
+- 🌍 **Geo-targeted Content**: Focus on Polish and European gaming markets
+- 🔗 **Internal & External Links**: Reputable sources including PEGI, UOKiK, and gaming authorities
+- 📱 **Responsive Design**: Mobile-friendly layout inspired by modern design trends
+- 👤 **Author Profile**: Featuring Kacper Nowak, Gaming Enthusiast & Content Creator
+- 🍪 **Cookie Consent Banner**: GDPR-compliant cookie management
+- 📧 **Contact Form**: Professional inquiry submission system
+- ⚖️ **Legal Pages**: Complete Privacy Policy and Terms & Conditions
+
+## 🎨 Design
+
+- Clean, professional layout inspired by leading gaming publications
+- Card-based blog grid with hover effects
+- Featured post section on homepage
+- Custom CSS with blue/purple gradient accents
+- System font stack for optimal performance
+
+## ✅ Compliance
+
+- ✅ Facebook Ad policy compliant
+- ✅ No gambling or real-money gaming content
+- ✅ Family-friendly content
+- ✅ PEGI age rating awareness
+- ✅ GDPR compliant (cookie consent, privacy policy)
+- ✅ Proper attribution and external links
+
+## 🔗 Authority Links
+
+Our content references official sources:
+- [PEGI](https://pegi.info/) - Pan European Game Information
+- [UOKiK](https://uokik.gov.pl/en.php) - Polish Consumer Protection Office
+- [EU Consumer Rights](https://ec.europa.eu/info/law/law-topic/consumer-protection-law_en)
+- [GDPR Information](https://ec.europa.eu/info/law/law-topic/data-protection_en)
+- Polish Ministry of Finance and Digital Affairs
+- Gaming industry sources: IGN, PC Gamer, GameSpot, Common Sense Media
+
+## 🚀 Tech Stack
+
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with custom properties
+- **Vanilla JavaScript** - Cookie consent and form handling
+- **GitHub Pages** - Free hosting and deployment
+
+## 📂 Project Structure
 
 ```
-gaming-hub-blog/
+poland/
 ├── index.html              # Homepage with featured and recent posts
 ├── about.html              # About page
-├── contact.html            # Contact page
+├── contact.html            # Contact form
 ├── privacy.html            # Privacy Policy
 ├── terms.html              # Terms & Conditions
 ├── blog/                   # Blog posts directory
-│   ├── index.html         # Blog listing page
-│   └── [post-slug].html   # Individual blog posts
-├── images/                 # All images
-│   ├── author.png         # Author profile image
-│   └── [post-slug].png    # Blog post images
+│   ├── index.html         # Blog listing
+│   ├── gaming-regulations-poland.html
+│   ├── best-multiplayer-games-2025.html
+│   ├── improve-gaming-skills-guide.html
+│   ├── mobile-gaming-trends-2025.html
+│   ├── building-gaming-community-streamers.html
+│   └── family-friendly-online-games.html
+├── images/                 # All images (author + blog posts)
 ├── css/                    # Stylesheets
-│   └── style.css         # Main stylesheet
-└── js/                     # JavaScript files
-    └── main.js           # Cookie banner functionality
+│   └── style.css
+└── js/                     # JavaScript
+    └── main.js
 ```
 
-## 🚀 Generation Process
+## 🌐 Live Site
 
-### Step 1: Generate Content
-```bash
-node generate-content.js
-```
-Generates:
-- 5 unique blog posts
-- Blog post titles and content
-- Meta descriptions
-- Image prompts
-- Author bio
-- Saves to `content.json`
+Visit the live site at: **https://bestonlinegames07.github.io/poland/**
 
-### Step 2: Generate Images
-```bash
-python generate-images.py
-```
-Generates:
-- Author profile image
-- 5 unique photorealistic blog post images
-- Saves to `images/` directory
+## 📊 Content Focus
 
-### Step 3: Build Website
-```bash
-node build-site.js
-```
-Builds:
-- Homepage with blog feed
-- Blog index page
-- Individual blog post pages
-- About, Contact, Privacy, Terms pages
-- CSS and JavaScript files
+- Polish gaming regulations and PEGI system
+- European gaming market insights
+- Multiplayer gaming experiences
+- Gaming skill improvement
+- Mobile gaming trends
+- Community building for streamers
+- Family-friendly gaming recommendations
 
-### Step 4: Preview
-```bash
-npx http-server . -p 3001 -o
-```
+## 👨‍💻 Author
 
-## 🎨 Design Features
+**Kacper Nowak**  
+Gaming Enthusiast & Content Creator
 
-- **Typography**: System fonts (similar to Marketer Milk)
-- **Color Scheme**: Professional blue/purple gradient accents
-- **Layout**: Card-based design with hover effects
-- **Featured Post**: Large hero-style featured article
-- **Blog Cards**: Grid layout with images and metadata
-- **Author Box**: Profile section on each blog post
-- **Navigation**: Clean header with CTA button
-- **Footer**: Simple footer with links
+Passionate about helping gamers discover new experiences and build meaningful connections in the gaming world.
 
-## ✅ Facebook Ad Compliance
+## 📄 License
 
-- ✅ No gambling content
-- ✅ No casino or real-money gaming
-- ✅ Family-friendly content
-- ✅ Clear privacy policy
-- ✅ Terms and conditions
-- ✅ Cookie consent banner
-- ✅ Educational and informative content
+This project is created for educational and informational purposes. All gaming company names, game titles, and trademarks belong to their respective owners.
 
-## 📝 Blog Topics
+## 🔄 Updates
 
-1. Best multiplayer games to play with friends in 2025
-2. How to improve your gaming skills: A complete guide
-3. The rise of mobile gaming: Trends and insights
-4. Building a gaming community: Tips for streamers
-5. Family-friendly online games everyone can enjoy
-
-## 🔧 Requirements
-
-- Node.js (for content generation and site building)
-- Python 3 (for image generation)
-- Google API Key (Gemini 2.5 Flash)
-
-## 📦 Dependencies
-
-### Node.js
-- @google/generative-ai
-- dotenv
-
-### Python
-- google-genai
-- python-dotenv
-
-## ⚙️ Configuration
-
-Create a `.env` file with your Google API key:
-```
-GOOGLE_API_KEY=your_api_key_here
-```
-
-## 🎯 Status
-
-- ✅ Project structure created
-- 🔄 Content generation in progress
-- ⏳ Image generation pending
-- ⏳ Website build pending
-
-## 📧 Contact
-
-Gaming Hub - Your ultimate destination for gaming insights
+Last Updated: November 20, 2025
 
 ---
 
-**Note**: This is a demonstration project showcasing AI-powered website generation with Facebook Ad policy compliance.
+**Note**: This website does not promote gambling, casino games, or real-money gaming. All content is family-friendly and compliant with Facebook advertising policies.
 
+For inquiries: Use the contact form on the website.
+
+© 2025 Gaming Hub. All rights reserved.
